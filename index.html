@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <link rel="icon" href="./icon.ico" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Netflix</title>
+  </head>
+  <body>
+    <div
+      class="w-full h-screen bg-cover bg-center relative"
+      style="background-image: url(./src/assets/main.jpg)"
+    >
+      <div class="w-full h-full bg-black bg-opacity-25">
+        <nav class="w-full bg-white py-4 flex justify-between items-center">
+          <img
+            src="./src/assets/logo.png"
+            class="ml-6 mt-6"
+            alt=""
+            width="150"
+          />
+          <a
+            class="bg-red-600 py-2 px-4 text-white mr-2 rounded"
+            href="https://www.netflix.com/ke/login?nextpage=https://www.netflix.com/youraccount"
+            >Sign in</a
+          >
+        </nav>
+        <div class="text-white absolute top-80 left-1/4 text-center">
+          <h1 class="text-5xl mb-4 w-3/5 font-bold">
+            Unlimited movies, TV shows, and more.
+          </h1>
+          <h2 class="text-3xl mr-60 font-normal">
+            Watch anywhere. Cancel anytime.
+          </h2>
+          <button
+            class="bg-red-600 py-3 px-10 mt-8 mr-56 font-semi-bold br-10 rounded"
+          >
+            Get Started >
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
