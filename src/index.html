@@ -68,7 +68,7 @@
                 <input
                   type="email"
                   name="email"
-                  id="email"
+                  id="email1"
                   class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
                   placeholder="name@email.com"
                   required
@@ -76,14 +76,14 @@
               </div>
               <div>
                 <label
-                  for="password"
+                  for="password"                  
                   class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >Your password</label
                 >
                 <input
                   type="password"
                   name="password"
-                  id="password"
+                  id="password1"
                   placeholder="••••••••"
                   class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
                   required
@@ -114,14 +114,15 @@
               </div>
               <button 
                 type="submit"
+                id="login"
                 class="w-full text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
               >
-                <a href="#">Login</a>
+                <a href="#">Sign in</a>
               </button>
               <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
                 Not registered?
                 <a
-                  href="#"
+                  href="signup.html"
                   class="text-blue-700 hover:underline dark:text-blue-500"
                   >Create account</a
                 >
@@ -148,5 +149,11 @@
       </div>
     </div>
     <script src="https://unpkg.com/flowbite@1.5.2/dist/flowbite.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script>
+    <script src="./js/config.js"></script>
+    <script src="./js/login.js"></script>
+    
   </body>
 </html>
